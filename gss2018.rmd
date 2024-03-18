@@ -168,6 +168,11 @@ The students with a no degree have a median less than students with a bachlors o
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(WORDSUM~DEGREE,data=GSSdata)
+```
+
+This table shows that the median of graduate students is the highest and the median of the LT high school is the lowest. This table shows a difference in the medians of the WORDSUM test.
 
 ### Inferential Results
 
