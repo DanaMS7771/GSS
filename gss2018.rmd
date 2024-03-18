@@ -86,6 +86,9 @@ The odds ratio is 2.271:1 and the p-value is 0.01651 therefore we reject the nul
 
 Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
 
+$H_0$:Null hypothesis:Years of education and years of voting are independent  
+$H_A$:Alternative hypothesis:Years of education and years of voting are dependent
+
 ## Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
