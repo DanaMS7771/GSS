@@ -59,6 +59,13 @@ The graph shows the majority of people are in favor of the death penalty own a g
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+table1 <- xtabs(~CAPPUN + OWNGUN,data=GSSdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numbers show a majority of people that own a gun are in favor of the death penalty at 75% and the majority of people who don't own a gun are opposed to the death penalty at 24% as opposed to the 42% on the right.
 
 ### Inferential Results
 
