@@ -44,10 +44,17 @@ Chi-squared test of independence, fisher exact test for the odds ratio
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ### Descriptive Results
+```{r}
+barchartGC(~CAPPUN + OWNGUN,data=GSSdata)
+barchartGC(~CAPPUN + OWNGUN,data=GSSdata, type="percent")
+
+```
 
 #### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+The graph shows the majority of people are in favor of the death penalty own a gun and the majority of non gun owners also are in favor of the death penalty. A small subsectin of both oppose the death penalty.
 
 #### Numerical Descriptive Results
 
