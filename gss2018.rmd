@@ -93,6 +93,11 @@ $H_A$:Alternative hypothesis:Years of education and years of voting are dependen
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+One variable is numerical and one is categorical; each with 2 levels ... EDUC/VOTE12 YES/NO
+
+So we use  Num~Cat analysis
+Chi-squared test of independence, fisher exact test for the odds ratio  boxplot, favstats and t test
+
 ##Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
