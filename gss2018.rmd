@@ -103,14 +103,24 @@ Chi-squared test of independence, fisher exact test for the odds ratio  boxplot,
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ### Descriptive Results
+```{r}
+boxplot(EDUC~VOTE12,data=GSSdata)
+```
 
 #### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+The median of voted is higher then that of not voted so there is a difference of if you had an education of not.  
+
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(EDUC~VOTE12,data=GSSdata)
+```
+
+The median is higher for those who voted as well as the max amd min points therefore there is a correlation between education and voting.
 
 ### Inferential Results
 
