@@ -33,6 +33,12 @@ $H_A$:Alternative hypothesis:Death penalty and gun ownership are dependent
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+Both variables are categorical; each with 2 levels ... OWNGUN YES/NO
+
+So we use  Cat~Cat analysis
+Chi-squared test of independence, fisher exact test for the odds ratio
+
+
 ##Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
